@@ -8,6 +8,7 @@ description: >-
   A place to document my interests.
 baseurl: ""
 url: ""
+keywords: ["blog", "engineering"]
 # twitter_username: todo
 github_username:  AshleighWilson
 
@@ -19,3 +20,9 @@ permalink: /article/:title
 
 plugins:
   - jekyll-feed
+
+owner:
+  name: Ashleigh Wilson
+  job: "Engineer"
+  bio: "Interested in interesting things"
+  avatar: "avatar.png"
