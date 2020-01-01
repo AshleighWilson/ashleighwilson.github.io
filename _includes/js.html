@@ -1,5 +1,16 @@
 <script type="text/javascript" src="{{ site.url }}/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="{{ site.url }}/js/main.js"></script>
+
+<script type="text/javascript" src="{{ site.url }}/js/enlighterjs.min.js"></script>
+    <script type="text/javascript">
+        EnlighterJS.init('pre', 'code', {
+                language : 'javascript',
+                theme: 'bootstrap4',
+                indent : 2
+        });
+    </script>
+
+
 {% if site.owner.google.analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>

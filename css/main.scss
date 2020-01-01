@@ -25,3 +25,23 @@
 @import "pages/tags";
 @import "pages/archive";
 @import "pages/post"; 
+
+// override default settings
+.enlighter-default{
+    // hide rawcode button
+    .enlighter-btn-raw{
+    }
+
+    // no changes to the copy button
+    .enlighter-btn-copy{
+    }
+
+    // hide window button
+    .enlighter-btn-window{
+    }
+
+    // please keep the EnlighterJS Website Link visible!
+    .enlighter-btn-website{
+        display: none;
+    }
+}
