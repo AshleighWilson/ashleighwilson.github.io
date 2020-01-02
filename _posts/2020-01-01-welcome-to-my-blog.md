@@ -1,32 +1,35 @@
 ---
 layout: post
-title:  "Welcome to Ashleigh Wilson's Blog!"
+title:  "Welcome to my blog!"
 date:   2020-01-01
 categories: General
+tags: [ ]
+mathjax: true
 ---
-A basic post to get started.
 
-<pre data-enlighter-language="js">
-// buttons used in codegroups + toolbar
-.enlighter-btn{
-    display: inline-block;
-    margin: 0px 5px 0px 5px;
-    padding: 3px 5px 3px 5px;
-    border: solid 1px #333333;
-    background-color: #f0f0f0;
-    cursor: pointer;
-}
+This post is a starting point for my blog and serves as a demonstration of some of the functionality available.
 
-// buttons
-.enlighter-btn-raw{
-    background-image: data-uri('icons/enlighter_code.svg');
-}
+## Code Snippets
 
-.enlighter-btn-window{
-    background-image: data-uri('icons/enlighter_rawcode.svg');
-}
+An example of a C++ code snippet below.
 
-.enlighter-btn-website{
-    background-image: data-uri('icons/enlighter_icon_white.svg');
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    cout << "Hello, World!";
+    return 0;
 }
-</pre>
+```
+
+## MathJax Integration
+
+MathJax allows math equations to be added to the website. 
+
+
+When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they can be determined by:
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
