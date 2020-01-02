@@ -26,22 +26,11 @@
 @import "pages/archive";
 @import "pages/post"; 
 
-// override default settings
-.enlighter-default{
-    // hide rawcode button
-    .enlighter-btn-raw{
-    }
+/* 
+ * My theme overrides.
+ */
 
-    // no changes to the copy button
-    .enlighter-btn-copy{
-    }
-
-    // hide window button
-    .enlighter-btn-window{
-    }
-
-    // please keep the EnlighterJS Website Link visible!
-    .enlighter-btn-website{
-        display: none;
-    }
+ // Add light grey border to right of sidebar.
+.row .col.m3 {
+    border-right: 1px solid #ddd;
 }
