@@ -30,6 +30,18 @@ int main()
 MathJax allows math equations to be added to the website. 
 
 
-When $$a \ne 0$$, there are two solutions to $$ax^2 + bx + c = 0$$ and they can be determined by:
+Inline equations are possible, i.e. $$ax^2 + bx + c = 0$$, as well as ones on separate lines:
 
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
+
+It is possible to omit the equation number if needed.
+
+$$ \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} \nonumber $$
+
+We can also reference equations, such as equation \eqref{Einstein}.
+
+$$ E=mc^2 \label{Einstein} $$
+
+## References
+
+1. [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
