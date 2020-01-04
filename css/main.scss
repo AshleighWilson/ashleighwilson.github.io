@@ -34,3 +34,17 @@
 .row .col.m3 {
     border-right: 1px solid #ddd;
 }
+
+// Reduce distance between heading and horizontal rule.
+#post h2 {
+    padding-bottom: 0.2em;
+}
+
+// Make sharing buttons smaller.
+.twitter, .facebook, .reddit {
+    padding: 0px 4px 0px 4px;
+}
+
+.share-buttons {
+    border-top: 0px;
+}
