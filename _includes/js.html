@@ -5,16 +5,15 @@
 <!-- Mathjax Integration - using version 2.7.7. -->
 <!-- The latest 3.x version doesn't play nicely with Jekyll.  -->
 {% if page.mathjax %}
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 <!-- Enable equation numbering  -->
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      TeX: { equationNumbers: { autoNumber: "all" } }
+        TeX: { equationNumbers: { autoNumber: "all" } },
     });
 </script>
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 {% endif %}
 
 
