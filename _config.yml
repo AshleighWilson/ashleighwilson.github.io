@@ -12,7 +12,7 @@ keywords: ["blog", "engineering"]
 # twitter_username: todo
 github_username:  AshleighWilson
 
-permalink: /article/:title
+permalink: /articles/:title
 
 #
 # Build settings
@@ -29,10 +29,12 @@ owner:
   # email: add-email
   # twitter: username
   # facebook: username
-  # linkedin: username
+  linkedin: ashleigh-wilson85
   # instagram: username
   github: ashleighwilson
   # stackoverflow: username
   # youtube: username
   # reddit: username.
+  google:
+    analytics: UA-156063991-1
   
