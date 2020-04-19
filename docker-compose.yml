@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: jekyll serve --drafts --port 4001
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4001:4001"
