@@ -7,3 +7,11 @@ vendor
 tikz/*.pdf
 .vscode/settings.json
 *.ignore
+*.aux
+*latexmk
+*.fls
+*.log
+*.synctex.gz
+*.dvi
+_drafts/
+*.swp

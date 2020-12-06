@@ -1,10 +1,10 @@
 #
 # Site configuration
-# 
+#
 
 title: Ashleigh Wilson's Blog
 email: ashleigh.wilson85@icloud.com
-description: >- 
+description: >-
   A place to document my interests.
 baseurl: ""
 url: "https://ashleigh-wilson.com"
@@ -37,4 +37,4 @@ owner:
   # reddit: username.
   google:
     analytics: UA-156063991-1
-  
+
